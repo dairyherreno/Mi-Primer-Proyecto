@@ -20,7 +20,6 @@ header, body, footer {
 }
 
 nav {
-    height: 50px;
     background-color: white;
     width: 80%;
     margin: 0 auto;
@@ -99,7 +98,7 @@ footer img{
 }
 
 .flex img{
-    width: 30%; 
+    width: 50%; 
 }
 
 .flex{
@@ -128,3 +127,93 @@ main{
     margin: 0 10px;
     width: 20%;
 }
+
+.grid-container-collares-brazaletes {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: .625rem
+}
+
+.grid-container-collares-brazaletes > .item1, .item3 {
+    text-align: right;
+}
+
+.grid-container-collares-brazaletes > .item2, .item4 {
+    text-align: left;
+}
+
+.grid-container-menu {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: .625rem
+}
+
+
+
+@media only screen 
+and (min-device-width : 1025px) 
+and (max-device-width : 1280px) 
+{ 
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        gap: .625rem
+    }
+    
+    .grid-container > .item1, .item3 {
+        text-align: right;
+    }
+    
+    .grid-container > .item2, .item4 {
+        text-align: left;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+{ 
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        gap: .625rem
+    }
+    
+    .grid-container > .item1, .item3 {
+        text-align: right;
+    }
+    
+    .grid-container > .item2, .item4 {
+        text-align: left;
+    }
+
+    .grid-container-menu {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        gap: .625rem;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+{ 
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: auto;
+        gap: .625rem
+    }
+    
+    .grid-container > div {
+        text-align: center !important; 
+    }
+    
+    .grid-container-menu {
+        display: inline-grid;
+        grid-template-columns: auto;
+        gap: .625rem
+    }
+
+}
+
+
