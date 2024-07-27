@@ -215,6 +215,11 @@ and (max-device-width : 1024px)
         width: 100%;
         grid-template-columns: auto auto;
     }
+    .grid-container-menu-nosotros{
+        display: inline-grid;
+        grid-template-columns: auto auto;
+        gap: .625rem
+    }
 }
 
 @media only screen 
@@ -248,6 +253,11 @@ and (max-device-width : 480px)
         width: 100%;
         grid-template-columns: auto;
     }
+.grid-container-menu-nosotros{
+    display: inline-grid;
+    grid-template-columns: auto;
+    gap: .625rem
+}
 }
 
 
