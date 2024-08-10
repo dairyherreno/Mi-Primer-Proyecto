@@ -1,0 +1,28 @@
+.maincontacto {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  margin-top: 5px;
+  .gridseccion-informacion {
+    background-color: white;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .mapa {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .maincontacto {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .maincontacto {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

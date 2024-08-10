@@ -1,0 +1,54 @@
+.maincollaresbrazaletes {
+  height: 100%;
+  display: flex;
+  text-align: -webkit-center;
+  margin-top: 5px;
+  .flex {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    img {
+        width: 50%;
+    }
+    .grid-container-collares-brazaletes {
+      display: inline-grid;
+      grid-template-columns: auto auto;
+      gap: 0.625rem;
+      .item1,
+      .item3 {
+        text-align: right;
+      }
+      .item2,
+      .item4{
+        text-align: left;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .maincollaresbrazaletes {
+    .flex {
+      img {
+          width: 100%;
+      }
+      .grid-container-collares-brazaletes {
+        grid-template-columns: auto auto;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .maincollaresbrazaletes {
+    .flex {
+      img {
+          width: 100%;
+      }
+      .grid-container-collares-brazaletes {
+        grid-template-columns: auto;
+      }
+    }
+  }
+}

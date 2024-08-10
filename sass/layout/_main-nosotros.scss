@@ -1,0 +1,32 @@
+main {
+  .gridtextosvarios {
+    display: grid;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    div {
+      width: 250px;
+      padding: 5px;
+      h2 {
+        margin: 30px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  main {
+    .gridtextosvarios {
+      grid-template-columns: auto auto;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  main {
+    .gridtextosvarios {
+      grid-template-columns: auto;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.mainanillosaretes {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  margin-top: 5px;
+  justify-content: center;
+  .body-grid-container {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+    .img-container {
+      display: block;
+      padding: 5px;
+      margin: 5px;
+      img{
+        width: 300px;
+        min-height: 235px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .mainanillosaretes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .mainanillosaretes {
+    display: grid;
+  }
+}
+
