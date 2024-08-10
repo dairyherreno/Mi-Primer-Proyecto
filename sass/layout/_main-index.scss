@@ -1,12 +1,12 @@
 .grid-contenedor-primario {
   display: grid;
   grid-template-columns: auto;
-  text-align: center;
+  text-align: $align-center;
   margin-top: 5px;
   height: 100%;
   .grid-contenedor-varios {
     display: flex;
-    text-align: center;
+    text-align: $align-center;
     margin-top: 10px;
     .gridcontenedorvariossecundario {
       display: grid;
@@ -34,7 +34,7 @@
   .grid-contenedor-primario {
     .grid-contenedor-varios {
       display: flex;
-      text-align: center;
+      text-align: $align-center;
       margin-top: 10px;
       .gridcontenedorvariossecundario {
         display: grid;

@@ -177,7 +177,7 @@ footer {
 .maincollaresbrazaletes {
   height: 100%;
   display: flex;
-  text-align: -webkit-center;
+  text-align: center;
   margin-top: 5px; }
   .maincollaresbrazaletes .flex {
     display: block;

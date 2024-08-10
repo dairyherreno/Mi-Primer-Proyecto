@@ -1,0 +1,10 @@
+@mixin encabezado-marca-mixin($margin, $colorH1, $colorH2) {
+  text-align: center;
+  margin: $margin;
+  h1 {
+    color: $colorH1;
+  }
+  h2 {
+    color: $colorH2;
+  }
+}

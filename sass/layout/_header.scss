@@ -1,13 +1,6 @@
 header {
   .encabezado-marca {
-    text-align: center;
-    margin: 20px;
-    h1 {
-      color: black;
-    }
-    h2 {
-      color: brown;
-    }
+    @include encabezado-marca-mixin(20px, black, brown);
   }
   nav {
     background-color: $color-white;

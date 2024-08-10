@@ -1,11 +1,11 @@
 .maincontacto {
   height: 100%;
   display: flex;
-  text-align: center;
+  text-align: $align-center;
   margin-top: 5px;
   .gridseccion-informacion {
     background-color: white;
-    text-align: center;
+    text-align: $align-center;
     margin: 15px 0;
   }
   .mapa {

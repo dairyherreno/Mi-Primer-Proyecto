@@ -4,7 +4,7 @@
 }
 
 header, body, footer {
-    background-color: antiquewhite;
+    background-color: map-get($map-colors, "crema");
 }
 
 body {

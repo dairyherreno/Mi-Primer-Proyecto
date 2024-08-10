@@ -1,9 +1,9 @@
 .mainanillosaretes {
   height: 100%;
   display: flex;
-  text-align: center;
+  text-align: $align-center;
   margin-top: 5px;
-  justify-content: center;
+  justify-content: $align-center;
   .body-grid-container {
     display: block;
     padding: 5px;
